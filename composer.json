@@ -1,5 +1,5 @@
 {
-    "name": "Sumantablog/laravel-review-rateable",
+    "name": "sumantablog/laravel-review-rateable",
     "description": "Review & Rating system for Laravel",
     "keywords": ["rating", "Ratable", "laravel", "Review-Rateable", "reviewable"],
     "license": "MIT",
