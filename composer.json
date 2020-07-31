@@ -1,0 +1,50 @@
+{
+    "name": "Sumantablog/laravel-review-rateable",
+    "description": "Review & Rating system for Laravel",
+    "keywords": ["rating", "Ratable", "laravel", "Review-Rateable", "reviewable"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sumanta Kabiraj",
+            "email": "sumantablog@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "http://github.com/sumantablog/laravel-review-rateable"
+        }
+    ],
+    "require": {
+        "php" : "^7.2",
+        "illuminate/database": "~5.5.0|~5.6.0|~5.7.0|~5.8.0|^6.0|^7.0",
+        "illuminate/support": "~5.5.0|~5.6.0|~5.7.0|~5.8.0|^6.0|^7.0",
+        "Sumantablog/laravel-review-rateable": "dev-laravel-version-fix"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.3|^7.0|^8.0",
+        "orchestra/testbench": "~3.5.0|~3.6.0|^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sumantablog\\ReviewRateable\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sumantablog\\ReviewRateable\\Test\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sumantablog\\ReviewRateable\\ReviewRateableServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test:windows": "vendor\\bin\\phpunit"
+    }
+}
